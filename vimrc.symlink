@@ -1,0 +1,20 @@
+" ========= Vundle required
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
+
+Plugin 'tpope/vim-sensible'
+Plugin 'rstacruz/vim-opinion'
+Plugin 'wincent/command-t'
+Plugin 'vim-scripts/closetag.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'Shougo/neocomplcache.vim'
+
+call vundle#end()
+
+filetype plugin indent on
+
+" ========= End Vundle required
