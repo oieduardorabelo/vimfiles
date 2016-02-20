@@ -1,6 +1,8 @@
 " Custom configuration
 colorscheme atom-dark-256
 
+set number
+set background=dark
 set ruler
 set ignorecase
 set smartcase
